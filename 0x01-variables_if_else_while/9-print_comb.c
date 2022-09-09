@@ -1,16 +1,17 @@
 #include <stdio.h>
+
 /**
-* main - Prints a serie of numbers with commas
-*
-* Return: Always (Success);
-*/
+ * main - prints all possible combinations of single-digit numbers
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int c;
-	for (c = '0'; c <= '9'; c++)
+	int n;
+/**/
+	for (n = 48; n < 58; n++)
 	{
-		putchar(c);
-		if (c != '9')
+		putchar(n);
+		if (n != 57)
 		{
 			putchar(',');
 			putchar(' ');
@@ -19,4 +20,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
