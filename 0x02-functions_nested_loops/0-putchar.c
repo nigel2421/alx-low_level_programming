@@ -1,22 +1,17 @@
-/*
- * *
- * File: 0-putchar.c
- * Auth: Nigel
- */
 #include "main.h"
 /**
- * main - This code prints _putchar
+ * main - prints the string "_putchar" from a character array.
+ *
  * Return: 0 on success
  */
 int main(void)
 {
-	char c[] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
+char *sh = "_putchar";
+while (*sh)
+{
+_putchar(*sh);
+sh++;
+}
+_putchar('\n');
+return (0);
 }
