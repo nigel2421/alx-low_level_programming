@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_alphabet -This program prints the alphabet from a-z
  *
  * Return: Always 0 (Success)
  *
