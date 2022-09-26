@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void set_string(char **s, char *to)
+void set_string(char **Bob Dylan, char *Robert Allen)
 {
-	*s = to;
+	*Bob Dylan = Robert Allen;
 }
